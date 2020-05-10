@@ -13,6 +13,7 @@
 		902F8D352464813E00BBA4E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902F8D342464813E00BBA4E6 /* Assets.xcassets */; };
 		902F8D382464813E00BBA4E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902F8D372464813E00BBA4E6 /* Preview Assets.xcassets */; };
 		902F8D3B2464813E00BBA4E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902F8D392464813E00BBA4E6 /* LaunchScreen.storyboard */; };
+		909117EF24683DDD00FF41BC /* ChallngeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909117EE24683DDD00FF41BC /* ChallngeOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		902F8D372464813E00BBA4E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		902F8D3A2464813E00BBA4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902F8D3C2464813E00BBA4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909117EE24683DDD00FF41BC /* ChallngeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallngeOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,9 @@
 		902F8D222464813700BBA4E6 = {
 			isa = PBXGroup;
 			children = (
+				909117ED24683DAA00FF41BC /* Resource */,
+				909117EC24683D9F00FF41BC /* Main */,
+				909117EB24683D6D00FF41BC /* FirstChallenge */,
 				902F8D2D2464813700BBA4E6 /* WeSplit */,
 				902F8D2C2464813700BBA4E6 /* Products */,
 			);
@@ -56,12 +61,7 @@
 		902F8D2D2464813700BBA4E6 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				902F8D2E2464813700BBA4E6 /* AppDelegate.swift */,
-				902F8D302464813700BBA4E6 /* SceneDelegate.swift */,
 				902F8D322464813700BBA4E6 /* ContentView.swift */,
-				902F8D342464813E00BBA4E6 /* Assets.xcassets */,
-				902F8D392464813E00BBA4E6 /* LaunchScreen.storyboard */,
-				902F8D3C2464813E00BBA4E6 /* Info.plist */,
 				902F8D362464813E00BBA4E6 /* Preview Content */,
 			);
 			path = WeSplit;
@@ -73,6 +73,33 @@
 				902F8D372464813E00BBA4E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		909117EB24683D6D00FF41BC /* FirstChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				909117EE24683DDD00FF41BC /* ChallngeOne.swift */,
+			);
+			path = FirstChallenge;
+			sourceTree = "<group>";
+		};
+		909117EC24683D9F00FF41BC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				902F8D3C2464813E00BBA4E6 /* Info.plist */,
+				902F8D2E2464813700BBA4E6 /* AppDelegate.swift */,
+				902F8D392464813E00BBA4E6 /* LaunchScreen.storyboard */,
+				902F8D302464813700BBA4E6 /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		909117ED24683DAA00FF41BC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				902F8D342464813E00BBA4E6 /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909117EF24683DDD00FF41BC /* ChallngeOne.swift in Sources */,
 				902F8D2F2464813700BBA4E6 /* AppDelegate.swift in Sources */,
 				902F8D312464813700BBA4E6 /* SceneDelegate.swift in Sources */,
 				902F8D332464813700BBA4E6 /* ContentView.swift in Sources */,
@@ -288,7 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				DEVELOPMENT_TEAM = F6G9374LLZ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WeSplit/Info.plist;
+				INFOPLIST_FILE = Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +336,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				DEVELOPMENT_TEAM = F6G9374LLZ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WeSplit/Info.plist;
+				INFOPLIST_FILE = Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
