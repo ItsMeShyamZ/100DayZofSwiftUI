@@ -44,7 +44,7 @@
 			children = (
 				909117ED24683DAA00FF41BC /* Resource */,
 				909117EC24683D9F00FF41BC /* Main */,
-				909117EB24683D6D00FF41BC /* FirstChallenge */,
+				909117EB24683D6D00FF41BC /* Challenge */,
 				902F8D2D2464813700BBA4E6 /* WeSplit */,
 				902F8D2C2464813700BBA4E6 /* Products */,
 			);
@@ -75,12 +75,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		909117EB24683D6D00FF41BC /* FirstChallenge */ = {
+		909117EB24683D6D00FF41BC /* Challenge */ = {
 			isa = PBXGroup;
 			children = (
 				909117EE24683DDD00FF41BC /* ChallngeOne.swift */,
 			);
-			path = FirstChallenge;
+			path = Challenge;
 			sourceTree = "<group>";
 		};
 		909117EC24683D9F00FF41BC /* Main */ = {
