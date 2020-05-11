@@ -13,7 +13,8 @@
 		902F8D352464813E00BBA4E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902F8D342464813E00BBA4E6 /* Assets.xcassets */; };
 		902F8D382464813E00BBA4E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902F8D372464813E00BBA4E6 /* Preview Assets.xcassets */; };
 		902F8D3B2464813E00BBA4E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902F8D392464813E00BBA4E6 /* LaunchScreen.storyboard */; };
-		909117EF24683DDD00FF41BC /* ChallngeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909117EE24683DDD00FF41BC /* ChallngeOne.swift */; };
+		9078C47F246920DD00D517E0 /* ChallngeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078C47E246920DD00D517E0 /* ChallngeOne.swift */; };
+		9078C4812469212100D517E0 /* HVZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078C4802469212100D517E0 /* HVZStacks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		902F8D372464813E00BBA4E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		902F8D3A2464813E00BBA4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902F8D3C2464813E00BBA4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		909117EE24683DDD00FF41BC /* ChallngeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallngeOne.swift; sourceTree = "<group>"; };
+		9078C47E246920DD00D517E0 /* ChallngeOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallngeOne.swift; sourceTree = "<group>"; };
+		9078C4802469212100D517E0 /* HVZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVZStacks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,10 +44,9 @@
 		902F8D222464813700BBA4E6 = {
 			isa = PBXGroup;
 			children = (
+				909117F02469204E00FF41BC /* 100daysSwiftUI */,
 				909117ED24683DAA00FF41BC /* Resource */,
 				909117EC24683D9F00FF41BC /* Main */,
-				909117EB24683D6D00FF41BC /* Challenge */,
-				902F8D2D2464813700BBA4E6 /* WeSplit */,
 				902F8D2C2464813700BBA4E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,10 +76,18 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		909117EB24683D6D00FF41BC /* Challenge */ = {
+		9078C47C2469208000D517E0 /* HVZStacks(20-22) */ = {
 			isa = PBXGroup;
 			children = (
-				909117EE24683DDD00FF41BC /* ChallngeOne.swift */,
+				9078C4802469212100D517E0 /* HVZStacks.swift */,
+			);
+			path = "HVZStacks(20-22)";
+			sourceTree = "<group>";
+		};
+		9078C47D246920DD00D517E0 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				9078C47E246920DD00D517E0 /* ChallngeOne.swift */,
 			);
 			path = Challenge;
 			sourceTree = "<group>";
@@ -100,6 +109,16 @@
 				902F8D342464813E00BBA4E6 /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		909117F02469204E00FF41BC /* 100daysSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				9078C47D246920DD00D517E0 /* Challenge */,
+				9078C47C2469208000D517E0 /* HVZStacks(20-22) */,
+				902F8D2D2464813700BBA4E6 /* WeSplit */,
+			);
+			path = 100daysSwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,8 +192,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				909117EF24683DDD00FF41BC /* ChallngeOne.swift in Sources */,
+				9078C47F246920DD00D517E0 /* ChallngeOne.swift in Sources */,
 				902F8D2F2464813700BBA4E6 /* AppDelegate.swift in Sources */,
+				9078C4812469212100D517E0 /* HVZStacks.swift in Sources */,
 				902F8D312464813700BBA4E6 /* SceneDelegate.swift in Sources */,
 				902F8D332464813700BBA4E6 /* ContentView.swift in Sources */,
 			);
@@ -313,7 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"100daysSwiftUI/WeSplit/Preview Content\"";
 				DEVELOPMENT_TEAM = F6G9374LLZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Main/Info.plist;
@@ -333,7 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"100daysSwiftUI/WeSplit/Preview Content\"";
 				DEVELOPMENT_TEAM = F6G9374LLZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Main/Info.plist;
