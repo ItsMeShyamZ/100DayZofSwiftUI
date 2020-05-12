@@ -29,6 +29,7 @@ struct FlagSelectionGame_D21: View {
                         .fontWeight(.black)
                 }
                 ForEach(0..<3){number in
+                    VStack{
                     Button(action: {
                         self.flagTapped(number)
                     }, label: {
@@ -40,6 +41,8 @@ struct FlagSelectionGame_D21: View {
                         
                         
                     })
+                        Text(self.countries[number]).hidden()
+                    }
                 }
                 
                 Spacer()
