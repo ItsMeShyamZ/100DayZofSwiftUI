@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9027DCD3246A4D5C0039D580 /* FlagSelectionGame#D21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9027DCD2246A4D5C0039D580 /* FlagSelectionGame#D21.swift */; };
 		902F8D2F2464813700BBA4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902F8D2E2464813700BBA4E6 /* AppDelegate.swift */; };
 		902F8D312464813700BBA4E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902F8D302464813700BBA4E6 /* SceneDelegate.swift */; };
 		902F8D332464813700BBA4E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902F8D322464813700BBA4E6 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9027DCD2246A4D5C0039D580 /* FlagSelectionGame#D21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlagSelectionGame#D21.swift"; sourceTree = "<group>"; };
 		902F8D2B2464813700BBA4E6 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		902F8D2E2464813700BBA4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		902F8D302464813700BBA4E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				9078C4802469212100D517E0 /* HVZStacks.swift */,
+				9027DCD2246A4D5C0039D580 /* FlagSelectionGame#D21.swift */,
 			);
 			path = "HVZStacks(20-22)";
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				9078C47F246920DD00D517E0 /* ChallngeOne.swift in Sources */,
 				902F8D2F2464813700BBA4E6 /* AppDelegate.swift in Sources */,
+				9027DCD3246A4D5C0039D580 /* FlagSelectionGame#D21.swift in Sources */,
 				9078C4812469212100D517E0 /* HVZStacks.swift in Sources */,
 				902F8D312464813700BBA4E6 /* SceneDelegate.swift in Sources */,
 				902F8D332464813700BBA4E6 /* ContentView.swift in Sources */,
