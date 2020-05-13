@@ -82,6 +82,7 @@ struct ContentView: View {
                 
                 Section{
                     Text("$\(totalPerPerson,specifier: "%.2f")")
+                        .foregroundColor(totalPerPerson == 0.0 ? Color.red : Color.black)
                 }
                 .navigationBarTitle("WeSplit" , displayMode: .automatic)
             }

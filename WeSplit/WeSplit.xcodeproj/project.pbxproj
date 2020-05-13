@@ -16,6 +16,7 @@
 		902F8D3B2464813E00BBA4E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902F8D392464813E00BBA4E6 /* LaunchScreen.storyboard */; };
 		9078C47F246920DD00D517E0 /* ChallngeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078C47E246920DD00D517E0 /* ChallngeOne.swift */; };
 		9078C4812469212100D517E0 /* HVZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078C4802469212100D517E0 /* HVZStacks.swift */; };
+		9092F2C1246BAB800087443D /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9092F2C0246BAB800087443D /* ViewsAndModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		902F8D3C2464813E00BBA4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9078C47E246920DD00D517E0 /* ChallngeOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallngeOne.swift; sourceTree = "<group>"; };
 		9078C4802469212100D517E0 /* HVZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVZStacks.swift; sourceTree = "<group>"; };
+		9092F2C0246BAB800087443D /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +119,20 @@
 		909117F02469204E00FF41BC /* 100daysSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9092F2BF246BAB6B0087443D /* Project 3 () */,
 				9078C47D246920DD00D517E0 /* Challenge */,
 				9078C47C2469208000D517E0 /* HVZStacks(20-22) */,
 				902F8D2D2464813700BBA4E6 /* WeSplit */,
 			);
 			path = 100daysSwiftUI;
+			sourceTree = "<group>";
+		};
+		9092F2BF246BAB6B0087443D /* Project 3 () */ = {
+			isa = PBXGroup;
+			children = (
+				9092F2C0246BAB800087443D /* ViewsAndModifiers.swift */,
+			);
+			path = "Project 3 ()";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 				9078C47F246920DD00D517E0 /* ChallngeOne.swift in Sources */,
 				902F8D2F2464813700BBA4E6 /* AppDelegate.swift in Sources */,
 				9027DCD3246A4D5C0039D580 /* FlagSelectionGame#D21.swift in Sources */,
+				9092F2C1246BAB800087443D /* ViewsAndModifiers.swift in Sources */,
 				9078C4812469212100D517E0 /* HVZStacks.swift in Sources */,
 				902F8D312464813700BBA4E6 /* SceneDelegate.swift in Sources */,
 				902F8D332464813700BBA4E6 /* ContentView.swift in Sources */,

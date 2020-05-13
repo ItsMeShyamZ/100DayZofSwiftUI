@@ -8,6 +8,17 @@
 
 import SwiftUI
 
+struct FlagImage : View{
+    var name : String
+    var body : some View {
+    Image(name)
+        .renderingMode(.original)
+        .clipShape(Capsule())
+        .overlay(Capsule().stroke(Color.black,lineWidth: 1))
+        .shadow(color: .black,radius: 5)
+    }
+}
+
 struct FlagSelectionGame_D21: View {
    @State private  var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
 
@@ -30,18 +41,23 @@ struct FlagSelectionGame_D21: View {
                 }
                 ForEach(0..<3){number in
                     VStack{
-                    Button(action: {
-                        self.flagTapped(number)
-                    }, label: {
-                        Image(self.countries[number])
-                            .renderingMode(.original)
-                            .clipShape(Capsule())
-                            .overlay(Capsule().stroke(Color.black,lineWidth: 1))
-                            .shadow(color: .black,radius: 5)
-                        
-                        
-                    })
-                        Text(self.countries[number]).hidden()
+                        Button(action: {
+                            self.flagTapped(number)
+                        }) {
+                            FlagImage(name: self.countries[number])
+                        }
+//                    Button(action: {
+//                        self.flagTapped(number)
+//                    }, label: {
+//
+//                        FlagImage(name: self.countries[number])
+//
+//                    })
+                        if  self.scoreTitle == "Correct"{
+                            Text(self.countries[number]).hidden()
+                        }else{
+                            Text(self.countries[number])
+                        }
                     }
                 }
                 
