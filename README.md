@@ -19,3 +19,11 @@ Views And modifiers:
 2)Swift’s type(of:) method prints the exact type of a particular value, and in this instance it will print the following: ModifiedContent<ModifiedContent<Button<Text>, _BackgroundModifier<Color>>, _FrameLayout> , so its stack of modifiers placed one by one.
 3.What some View lets us do is say “this will return one specific type of view, such as Button or Text, but I don’t want to say what.” So, the hole that View has will be filled by a real view, but we aren’t required to write out the exact long type.
 4.Conditional Modeifier and Environmental modifier 
+  
+ Steper:
+Stepper(value: $sleepAmount, in: 4...12, step: 0.25) {
+    Text("\(sleepAmount) hours")
+}
+
+DatePicker:
+DatePicker("Please enter a date", selection: $wakeUp, in: Date()...)
