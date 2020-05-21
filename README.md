@@ -27,3 +27,4 @@ Stepper(value: $sleepAmount, in: 4...12, step: 0.25) {
 
 DatePicker:
 DatePicker("Please enter a date", selection: $wakeUp, in: Date()...)
+Stepper, DatePicker, DateFormatter and done BetterRest app
